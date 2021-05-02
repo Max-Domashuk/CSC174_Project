@@ -1,0 +1,90 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center; 
+}
+
+
+.information input{
+  width: auto;
+  height: auto;
+  font-size: 15px;
+  padding-left: 10px;
+  margin: 10px;
+}
+
+.patientInfo input{
+  width: auto;
+  height: auto;
+  font-size: 15px;
+  padding-left: 10px;
+  margin: 10px;
+}
+
+button {
+  width: 310px;
+  height: 50px;
+  margin-top: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.Hospitals {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}  
+
+.Hosp { 
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.Patients {
+display: flex;
+flex-direction: column;
+width: 100%;
+justify-content: center;
+align-items: center; 
+}
+
+.patientInfo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center; 
+  }
+
+.Pat { 
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.Pat h3 {
+  margin: 10px;
+}
+
+.Hosp h3 {
+  margin: 10px;
+}
